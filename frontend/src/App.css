@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+/* src/components/login/Login.css */
+
+/* Wraps your heading + form in a fixed-width, centered box */
+.login-container {
+  max-width: 320px;      /* same width as your form */
+  margin: 2rem auto;     /* auto-centers it horizontally */
+}
+
+/* Remove any centering margin on the form itself */
+.login-form {
+  margin: 0;             /* overrides any previous auto-centering */
+}
+
+/* Each row: label + input */
+.login-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Fixed label width, right-aligned text */
+.login-row label {
+  width: 100px;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+/* Inputs fill the rest of the row */
+.login-row input {
+  flex: 1;
+  padding: 0.4rem;
+}
+
+/* Button lines up under the inputs */
+.login-button {
+  margin-left: calc(100px + 0.5rem);
+  padding: 0.5rem 1rem;
+}
+
+.success-label {
+  color: green;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.error-label {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}
